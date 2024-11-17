@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Simple Tailwind Starter</title>
+  </head>
+  <body class="bg-rose-50 flex items-center justify-center min-h-screen">
+    <div class="bg-white flex flex-row  rounded-lg m-3 ">
+      <div class="md:p-20 p-6  space-y-6">
+        <h1 class="font-bold text-3xl tracking-wide mb-3">Log in</h1>
+        <p class="max-w-full font-light text-gray-700 tracking-wide text-md mb-6">
+          Log in to your account to upload or download pictures, videos or
+          music.
+        </p>
+        <input type="text" placeholder="Enter your email address " class="placeholder:font-light placeholder:text-xl border-[1px] border-gray-300  rounded-lg p-6 w-full mb-7">
+        <div class="flex justify-between items-center">
+          <div class="text-cyan-700 font-light text-lg">
+            Forgot password
+          </div>
+          <button class="bg-cyan-600 text-white px-12 py-8 rounded-md shadow-sm shadow-cyan-600 font-bold space-x-3
+          hover:bg-cyan-600 transition-all duration-300 hover:shadow-lg active:scale-105">
+            <span class="text-md">Next</span>
+            <i class="fa-solid fa-arrow-right-long text-xl"></i>
+          </button>
+        </div>
+
+        
+
+        <div class="border-b-gray-100 border-[1px]  mt-6"></div>
+
+        <div class="text-gray-400 text-lg font-light text-center w-full">
+          or log in with
+        </div>
+
+        <div class="flex md:flex-row flex-col gap-4">
+          <button class="flex items-center gap-3   border rounded-md border-grey-100 justify-center py-3 md:w-1/2 transition-all duration-200 active:scale-105 shadow-sm hover:shadow-xl">
+            <img src="./images/facebook.png" alt="" class="w-10">
+            <span class="font-light text-black text-xl">Facebook</span>
+          </button>
+          <button class="flex items-center gap-3   border rounded-md border-grey-100 justify-center py-3 md:w-1/2 transition-all duration-200 active:scale-105 shadow-sm hover:shadow-xl">
+            <img src="./images/google.png" alt="" class="w-10">
+            <span class="font-light text-black text-xl">Google</span>
+          </button>
+          
+        </div>
+      </div>
+      <img src="./images/image.jpg" alt="" class="md:block hidden w-[430px]">
+    </div>
+  </body>
+</html>
